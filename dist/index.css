@@ -548,6 +548,10 @@ html {
     @apply
   } */
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -556,8 +560,16 @@ html {
   position: relative;
 }
 
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
 .left-6 {
   left: 1.5rem;
+}
+
+.right-2 {
+  right: 0.5rem;
 }
 
 .right-6 {
@@ -939,6 +951,25 @@ html {
 .focus\:border-lightred:focus {
   --tw-border-opacity: 1;
   border-color: rgb(255 13 56 / var(--tw-border-opacity));
+}
+
+.dark .dark\:bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:fill-white {
+  fill: #fff;
+}
+
+.dark .dark\:text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (max-width: 1023px) {
